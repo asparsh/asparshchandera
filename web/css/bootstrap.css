@@ -1800,14 +1800,22 @@ pre code {
   .col-sm-4 {
     width: 100%;
   }
+  
   .col-sm-4.overview p{
     width: 100%;
     letter-spacing: .5px;
     font-size: 14px;
     color:#353535;
-    margin: 1em 0;
     font-weight: normal;
     float:left;
+  }
+  .col-sm-4.poster p{
+    width: 100%;
+    letter-spacing: .5px;
+    font-size: 14px;
+    color:#353535;
+    font-weight: normal;
+	line-height: 2em;
   }
   .col-sm-3 {
     width: 25%;
@@ -1969,6 +1977,31 @@ pre code {
   }
   .col-md-4.overview {
     width: 100%;
+  }
+  .col-md-4.poster {
+    width: 66.666666666%;
+  }
+  .col-md-4.cric {
+    width: 66.666666666%;
+  }
+  .col-md-4.cricket {
+    width: 33.33333333%;
+  }
+  .col-md-4.overview p{
+    width: 100%;
+    letter-spacing: .5px;
+    font-size: 14px;
+    color:#353535;
+    font-weight: normal;
+    float:left;
+  }
+  .col-md-4.poster p{
+    width: 100%;
+    letter-spacing: .5px;
+    font-size: 14px;
+    color:#353535;
+    font-weight: normal;
+	line-height: 2em;
   }
   .col-md-3 {
     width: 25%;

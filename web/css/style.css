@@ -738,8 +738,9 @@ b, strong {
     float: left;
     border: 1px solid #11b563;
     border-bottom: transparent;
-    padding: 4.64em 2em;
+    padding: 7.44em 2em;
 }
+
 .experience-agile-w3l-info {
     width: 70%;
     float: left;
@@ -874,6 +875,7 @@ i.fa.fa-hourglass-end {
 		margin: 30px 0;
 		font-size: 25px;
 		font-weight: 600;
+		text-align: center;
 	}
 
 		/*-- Tabs-Content --*/
@@ -887,7 +889,7 @@ i.fa.fa-hourglass-end {
 			margin: 0 auto;
 			padding: 0;
 			max-width: 1200px;
-			text-align: center;
+			text-align: left;
 		}
 
 		.content-wrap section.content-current {
@@ -895,14 +897,21 @@ i.fa.fa-hourglass-end {
 		}
 
 		.content-wrap section p {
-			margin: 0;
+		/*	margin: 0;
 			padding: 0.75em 0;
 			color: rgba(40,44,42,0.05);
 			font-weight: 900;
 			/*--w3layouts--*/
 			/*--agileits--*/
-			font-size: 4em;
-			line-height: 1;
+		/*	font-size: 4em;
+			line-height: 1; */
+			width: 100%;
+			letter-spacing: .5px;
+			font-size: 14px;
+			color:#353535;
+			font-weight: normal;
+			line-height: 2em;
+			padding-left: 1em;
 		}
 
 		/*-- //Tabs-Content --*/
@@ -960,7 +969,7 @@ i.fa.fa-hourglass-end {
 		/*-- Tab-Images --*/
 
 		.gallery-top {
-			padding: 0;
+			padding: 0.2em;
 		}
 
 		.gallery-grids figure {
@@ -1306,8 +1315,14 @@ iframe {
 	}
 }
 @media screen and (max-width: 1440px){
-	.experience-agile-w3l-year {
-		padding: 4.64em 1em;
+	.experience-agile-w3l-year.first {
+		padding: 8.2em 1em;
+	}
+	.experience-agile-w3l-year.second {
+		padding: 7.35em 1em;
+	}
+	.experience-agile-w3l-year.last {
+		padding: 9.05em 1em;
 	}
 	.about-left h3 {
 		width: 24%;
